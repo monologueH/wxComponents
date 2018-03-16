@@ -1,0 +1,25 @@
+/* components/clock.wxss */
+.component-clock{
+  font-size: 20rpx;
+  color: #232326;
+  width: 230rpx;
+  text-align: center;
+  border-radius: 8rpx;
+}
+.component-clock .swiper-box-time{
+  border-radius: 6rpx;
+  padding: 5rpx;
+  line-height: 32rpx;
+  text-align: center;
+
+}
+.component-clock .swiper-box-time:nth-child(2){
+  margin-left: 10rpx;
+
+}
+.component-clock .swiper-box-dot{
+  padding: 0 5rpx;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  font-weight: 700;
+}

@@ -1,0 +1,2 @@
+<!--pages/test/test.wxml-->
+<clock backgroundColor='black' width="240" lineHeight="50" remainTime="21827" title="距结束"></clock>

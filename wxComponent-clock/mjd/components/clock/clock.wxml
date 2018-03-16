@@ -1,0 +1,9 @@
+<!--components/clock.wxml-->
+<view class='component-clock' style='background-color:{{backgroundColor}};line-height:{{lineHeight}}rpx;width:{{width}}rpx;'>
+  <text style='color:{{backgroundColor == "white"?"#232326":"#fff"}};'>{{title}}</text>
+  <text class='swiper-box-time' style='color:{{backgroundColor}};background-color:{{backgroundColor == "white"?"#232326":"#fff"}};'>{{countTime.hours}}</text>
+  <text class='swiper-box-dot' style='color:{{backgroundColor == "white"?"#232326":"#fff"}};'>:</text>
+  <text class='swiper-box-time' style='color:{{backgroundColor}};background-color:{{backgroundColor == "white"?"#232326":"#fff"}};'>{{countTime.minutes}}</text>
+  <text class='swiper-box-dot' style='color:{{backgroundColor == "white"?"#232326":"#fff"}};'>:</text>
+  <text class='swiper-box-time' style='color:{{backgroundColor}};background-color:{{backgroundColor == "white"?"#232326":"#fff"}};'>{{countTime.seconds}}</text>
+</view>
