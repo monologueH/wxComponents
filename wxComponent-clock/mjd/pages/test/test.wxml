@@ -1,2 +1,8 @@
 <!--pages/test/test.wxml-->
-<clock backgroundColor='black' width="240" lineHeight="50" remainTime="21827" title="距结束"></clock>
+<view class='title'>时钟组件：</view>
+<!--示例如下  -->
+ <clock backgroundColor='black' width="240" lineHeight="50" remainTime="21827" title="距结束"></clock> 
+<view class='title'>进度条组件：</view>
+<!--示例如下  -->
+<msProgress width='150' height='16' contentBgcA='#FA725F' contentBgcB='#F93A42' ></msProgress>
+  

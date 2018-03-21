@@ -1,0 +1,4 @@
+<!--components/msProgress/msProgress.wxml-->
+<view class='msProgress' style='width:{{width}}rpx;background-color:{{backgroundColor}};height:{{height}}rpx;'>
+  <view style='width:{{percent}}%;background:-webkit-gradient(linear, 0% 0%, 100% 0%,from({{contentBgcA}}), to({{contentBgcB}})); height:{{height}}rpx;'></view>
+</view>

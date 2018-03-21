@@ -1,0 +1,7 @@
+/* components/msProgress/msProgress.wxss */
+.msProgress{
+  border-radius: 1000rpx;
+  overflow: hidden;
+  border: 1px rgb(226, 107, 103) solid;
+  display: inline-block;
+}
